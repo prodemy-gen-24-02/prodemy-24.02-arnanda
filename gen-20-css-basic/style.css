@@ -58,13 +58,11 @@ p {
 
 .header-content {
   display: inline-block;
-  vertical-align: top;
   width: 50%;
 }
 
 .header-image {
   display: inline-block;
-  vertical-align: top;
   width: 50%;
 }
 
@@ -99,6 +97,7 @@ p {
 }
 
 .category {
+  position: relative;
   width: 30%;
   margin-bottom: 20px;
 }
@@ -108,9 +107,15 @@ p {
 }
 
 .category h3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
-  color: #333;
-  margin-top: 10px;
+  color: #fff;
+  margin: 0;
+  padding: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 /* Products Section */
