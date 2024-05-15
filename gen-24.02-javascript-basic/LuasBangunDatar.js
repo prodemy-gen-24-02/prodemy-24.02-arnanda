@@ -34,11 +34,9 @@ function hitungLuasLingkaran(r) {
   return pi * r * r;
 }
 
-let jariJari = 7;
-let luasLingkaran = hitungLuasLingkaran(jariJari);
-console.log(
-  `4. Luas Lingkaran dengan jari-jari ${jariJari} adalah ${luasLingkaran}`
-);
+let r = 7;
+let luasLingkaran = hitungLuasLingkaran(r);
+console.log(`4. Luas Lingkaran dengan jari-jari ${r} adalah ${luasLingkaran}`);
 
 // Fungsi untuk menghitung luas trapesium dan mengembalikan nilai
 function hitungLuasTrapesium(sisiAtas, sisiBawah, tinggiTrapesium) {
